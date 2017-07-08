@@ -1,0 +1,39 @@
+{
+  "name": "gulp-blogger-html-preview",
+  "version": "0.0.0",
+  "description": "Get output code preview of Google Blogger",
+  "license": "MIT",
+  "repository": "jlobos/gulp-blogger-html-preview",
+  "author": "Jesus Lobos <jlobitu@gmail.com> (https://jlobos.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": true
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "blogger",
+    "google",
+    "preview",
+    "theme",
+    "template",
+    "xml"
+  ],
+  "dependencies": {
+    "blogger-html-preview": "^1.1.0",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  }
+}
